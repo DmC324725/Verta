@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+
+    <group
+        android:scaleX="0.8"
+        android:scaleY="0.8"
+        android:pivotX="54"
+        android:pivotY="54">
+
+        <!-- Drop shadow -->
+        <path
+            android:fillColor="#33000000"
+            android:pathData="M34,27 H74 A10,10 0 0 1 84,37 V77 A10,10 0 0 1 74,87 H34 A10,10 0 0 1 24,77 V37 A10,10 0 0 1 34,27 Z" />
+
+        <!-- Outer rim of the rounded square -->
+        <path
+            android:fillColor="@color/verta_icon_outer_rim"
+            android:pathData="M34,24 H74 A10,10 0 0 1 84,34 V74 A10,10 0 0 1 74,84 H34 A10,10 0 0 1 24,74 V34 A10,10 0 0 1 34,24 Z" />
+
+        <!-- Inner face of the rounded square -->
+        <path
+            android:fillColor="@color/verta_icon_inner_face"
+            android:pathData="M35,27 H73 A8,8 0 0 1 81,35 V73 A8,8 0 0 1 73,81 H35 A8,8 0 0 1 27,73 V35 A8,8 0 0 1 35,27 Z" />
+
+        <!-- Up chevron -->
+        <path
+            android:pathData="M47,37 L54,31 L61,37"
+            android:strokeColor="@color/verta_icon_symbol"
+            android:strokeWidth="2.5"
+            android:strokeLineCap="round"
+            android:strokeLineJoin="round" />
+
+        <!-- Play triangle (rounded corners via stroke) -->
+        <path
+            android:fillColor="@color/verta_icon_symbol"
+            android:pathData="M49,45.5 L62,54 L49,62.5 Z"
+            android:strokeColor="@color/verta_icon_symbol"
+            android:strokeWidth="3"
+            android:strokeLineJoin="round" />
+
+        <!-- Down chevron -->
+        <path
+            android:pathData="M47,71 L54,77 L61,71"
+            android:strokeColor="@color/verta_icon_symbol"
+            android:strokeWidth="2.5"
+            android:strokeLineCap="round"
+            android:strokeLineJoin="round" />
+
+    </group>
+</vector>
